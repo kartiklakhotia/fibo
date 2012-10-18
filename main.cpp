@@ -2,9 +2,9 @@
 
 int fibo(int n)
 {
-	fibocurrent = 1;
-	fiboprev = 1;
-	fibonext = 0;
+	int fibocurrent = 1;
+	int fiboprev = 1;
+	int fibonext = 2;
 	for (int i=0; i<n; i++)
 	{
 		fibonext = fibocurrent + fiboprev;
